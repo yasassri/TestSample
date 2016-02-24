@@ -67,9 +67,10 @@ public class Example1 {
 
     @Test(timeOut = 5)
     public void testMethod5() {
-        while (true) {
-            System.out.println("waiting for Test Method 5");
-        }
+        // while (true) {
+        //     System.out.println("waiting for Test Method 5");
+        // }
+        System.out.println("Test Method 4");
     }
 
 
