@@ -65,12 +65,12 @@ public class Example1 {
         System.out.println("Test Method 4");
     }
 
-//    @Test(timeOut = 5)
-//    public void testMethod5() {
-//        while (true) {
-//            System.out.println("waiting for Test Method 5");
-//        }
-//    }
+    @Test(timeOut = 5)
+    public void testMethod5() {
+        while (true) {
+            System.out.println("waiting for Test Method 5");
+        }
+    }
 
 
     @DataProvider(name = "myprovider")
