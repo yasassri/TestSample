@@ -46,6 +46,7 @@ public class Example1 {
     @Test()
     public void testMethod1() {
         System.out.println("testMethod1");
+        assert (false);
     }
 
     @Test(dependsOnMethods = "testMethod1")
