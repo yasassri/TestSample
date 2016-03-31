@@ -4,7 +4,7 @@
     <test name="example">
         <classes>
             <!--<class name="org.wso2.carbon.tests.Example1" />-->
-            <class name="org.wso2.carbon.tests.Example1"/>
+            <class name="org.wso2.carbon.tests.Example2"/>
         </classes>
     </test>
 </suite>
