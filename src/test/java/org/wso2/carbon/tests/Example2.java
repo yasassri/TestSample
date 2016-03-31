@@ -49,7 +49,7 @@ public class Example2 {
         assert (false);
     }
 
-    @Test(dependsOnMethods = "testMethod1")
+    @Test()
     public void testMethod2CL2() {
         System.out.println("testMethod2");
     }
