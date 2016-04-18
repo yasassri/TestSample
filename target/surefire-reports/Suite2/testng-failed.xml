@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite2]">
+  <test name="example(failed)">
+    <classes>
+      <class name="org.wso2.carbon.tests.Example2">
+        <methods>
+          <include name="testAfterMethod"/>
+          <include name="tearDown"/>
+          <include name="testMethodAfterSuite"/>
+          <include name="testMethod1CL2"/>
+          <include name="init"/>
+          <include name="testMethodBeforeSuite"/>
+          <include name="testBeforeMethod"/>
+        </methods>
+      </class> <!-- org.wso2.carbon.tests.Example2 -->
+    </classes>
+  </test> <!-- example(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

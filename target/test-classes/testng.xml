@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PT1" verbose="1">
+    <test name="example">
+        <classes>
+            <!--<class name="org.wso2.carbon.tests.Example1" />-->
+            <class name="org.wso2.carbon.tests.Example1"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="2" total="16" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PT1" duration-ms="17" started-at="2016-03-31T12:16:34Z" finished-at="2016-03-31T12:16:34Z">
+    <groups>
+    </groups>
+    <test name="example" duration-ms="17" started-at="2016-03-31T12:16:34Z" finished-at="2016-03-31T12:16:34Z">
+      <class name="org.wso2.carbon.tests.Example1">
+        <test-method status="PASS" signature="testMethodBeforeSuite()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethodBeforeSuite" is-config="true" duration-ms="5" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodBeforeSuite -->
+        <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="init" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="testMethod1()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod1" duration-ms="1" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.wso2.carbon.tests.Example1.testMethod1(Example1.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod3" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at org.wso2.carbon.tests.Example1.testMethod3(Example1.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testMethod4()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod4" duration-ms="1" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method status="PASS" signature="testMethod4()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod4" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testMethod4()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod4" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4 -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testMethod5()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod5" duration-ms="2" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod5 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="1" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testMethod6(int, int)[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod6" duration-ms="0" started-at="2016-03-31T17:46:34Z" data-provider="myprovider" finished-at="2016-03-31T17:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+        <test-method status="PASS" signature="testMethod6(int, int)[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod6" duration-ms="1" started-at="2016-03-31T17:46:34Z" data-provider="myprovider" finished-at="2016-03-31T17:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testMethod6(int, int)[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod6" duration-ms="0" started-at="2016-03-31T17:46:34Z" data-provider="myprovider" finished-at="2016-03-31T17:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod6 -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="SKIP" signature="testMethod2()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethod2" duration-ms="1" started-at="2016-03-31T17:46:34Z" depends-on-methods="org.wso2.carbon.tests.Example1.testMethod1" finished-at="2016-03-31T17:46:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Example1.testMethod2()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Example1.testMethod2()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMethodAfterSuite()[pri:0, instance:org.wso2.carbon.tests.Example1@6b71769e]" name="testMethodAfterSuite" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodAfterSuite -->
+      </class> <!-- org.wso2.carbon.tests.Example1 -->
+    </test> <!-- example -->
+  </suite> <!-- PT1 -->
+  <suite name="Suite2" duration-ms="4" started-at="2016-03-31T12:16:34Z" finished-at="2016-03-31T12:16:34Z">
+    <groups>
+    </groups>
+    <test name="example" duration-ms="4" started-at="2016-03-31T12:16:34Z" finished-at="2016-03-31T12:16:34Z">
+      <class name="org.wso2.carbon.tests.Example2">
+        <test-method status="PASS" signature="testMethodBeforeSuite()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethodBeforeSuite" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodBeforeSuite -->
+        <test-method status="PASS" signature="init()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="init" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="FAIL" signature="testMethod1CL2()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethod1CL2" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at org.wso2.carbon.tests.Example2.testMethod1CL2(Example2.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1CL2 -->
+        <test-method status="PASS" signature="testMethod2CL2()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethod2CL2" duration-ms="1" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2CL2 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testMethod3CL2()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethod3CL2" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at org.wso2.carbon.tests.Example2.testMethod3CL2(Example2.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3CL2 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testBeforeMethod" is-config="true" duration-ms="1" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testMethod4CL2()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethod4CL2" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4CL2 -->
+        <test-method status="PASS" signature="testMethod4CL2()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethod4CL2" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4CL2 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testMethod4CL2()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethod4CL2" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod4CL2 -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testMethodAfterSuite()[pri:0, instance:org.wso2.carbon.tests.Example2@340f438e]" name="testMethodAfterSuite" is-config="true" duration-ms="0" started-at="2016-03-31T17:46:34Z" finished-at="2016-03-31T17:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodAfterSuite -->
+      </class> <!-- org.wso2.carbon.tests.Example2 -->
+    </test> <!-- example -->
+  </suite> <!-- Suite2 -->
+</testng-results>

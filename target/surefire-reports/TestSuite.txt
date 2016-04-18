@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.521 sec <<< FAILURE! - in TestSuite
+testMethod1(org.wso2.carbon.tests.Example1)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.wso2.carbon.tests.Example1.testMethod1(Example1.java:49)
+
+testMethod1CL2(org.wso2.carbon.tests.Example2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.wso2.carbon.tests.Example2.testMethod1CL2(Example2.java:49)
+
